@@ -28,6 +28,8 @@ export default function TodoForm({addTodo}){
                     aria-label="create todo"
                     edge="end"
                     type="submit"
+                    onClick={handlesubmit}
+                    onTouchEnd={handlesubmit}
                   >
                     <Create/>
                     
