@@ -34,7 +34,7 @@ export default function SavedItem({list,remove}){
       </IconButton>
     }
   >
-    
+   
     <ListItemAvatar>
       <Avatar onClick={togglelist} >
         <FolderIcon/>

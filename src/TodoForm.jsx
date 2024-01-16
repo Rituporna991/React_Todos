@@ -27,9 +27,10 @@ export default function TodoForm({addTodo}){
                   <IconButton
                     aria-label="create todo"
                     edge="end"
-                    type="submit"
+                    type="button"
                     onClick={handlesubmit}
                     onTouchEnd={handlesubmit}
+                    onPress={handlesubmit}
                   >
                     <Create/>
                     
